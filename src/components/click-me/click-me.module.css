@@ -1,0 +1,27 @@
+.button {
+    position: fixed;
+    bottom: 0;
+    right: 3rem;
+    padding: 1rem;
+    border: 1px solid #cccccc;
+    background-color: #dd8aaa;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    animation: pulse 1.3s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

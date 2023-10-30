@@ -1,0 +1,19 @@
+.nav__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav__item a {
+    padding: .5rem;
+    color: #191919;
+    text-decoration: none;
+    border-bottom: 1px solid #191919;
+    transition: .3s linear;
+}
+
+.nav__item a:hover {
+    color: #dd8aaa;
+    border-bottom: 1px solid transparent;
+}

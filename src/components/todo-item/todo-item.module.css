@@ -1,0 +1,32 @@
+.item {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.delete {
+    margin-left: auto;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #d5604e;
+    border: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.delete:hover {
+    opacity: .7;
+}
+
+.text {
+    margin: 0 0 0 1rem;
+    font-size: 1.25rem;
+}

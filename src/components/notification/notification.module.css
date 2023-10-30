@@ -1,0 +1,30 @@
+.inner {
+    position: relative;
+    padding: 1rem;
+    background-color: #CCE5FF;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+.inner:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.text {
+    margin: 0;
+}
+
+.close {
+    position: absolute;
+    top: -1.5rem;
+    right: 0;
+    transform: translateX(50%);
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.close:hover {
+    transform: translateX(50%) scale(1.1);
+}
